@@ -3,71 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casino Royale | Win Big</title>
-    <style>
-        /* Basic Reset */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0b0e11; color: #fff; }
-
-        /* Header & Logo */
-        header { background: #1c2127; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #f3ba2f; }
-        .logo { font-size: 24px; font-weight: bold; color: #f3ba2f; text-transform: uppercase; }
-
-        /* Hero Section */
-        .hero { text-align: center; padding: 60px 20px; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://via.placeholder.com/1200x400'); background-size: cover; }
-        .hero h1 { font-size: 3rem; color: #f3ba2f; margin-bottom: 10px; }
-
-        /* Auth Buttons */
-        .auth-container { background: rgba(28, 33, 39, 0.9); padding: 30px; border-radius: 15px; display: inline-block; margin-top: 20px; border: 1px solid #333; }
-        .btn { padding: 12px 25px; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; text-decoration: none; display: inline-block; margin: 5px; }
-        .btn-login { background-color: transparent; border: 1px solid #f3ba2f; color: #f3ba2f; }
-        .btn-signup { background-color: #f3ba2f; color: #000; }
-        .btn:hover { opacity: 0.8; }
-
-        /* Game Grid */
-        .game-section { padding: 40px 20px; text-align: center; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px; }
-        .game-card { background: #1c2127; border-radius: 10px; padding: 20px; border: 1px solid #333; transition: 0.3s; }
-        .game-card:hover { border-color: #f3ba2f; transform: translateY(-5px); }
-        .game-card i { font-size: 40px; display: block; margin-bottom: 10px; }
-
-        footer { background: #0b0e11; padding: 20px; text-align: center; font-size: 12px; color: #666; border-top: 1px solid #333; }
-    </style>
+    <title>আমার পোর্টফোলিও</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<header>
-    <div class="logo">CASINO<span>777</span></div>
-    <div>
-        <a href="#" class="btn btn-login">Login</a>
-    </div>
-</header>
+    <header>
+        <nav>
+            <div class="logo">লিমন<span>.</span></div>
+            <ul>
+                <li><a href="#home">হোম</a></li>
+                <li><a href="#about">আমার সম্পর্কে</a></li>
+                <li><a href="#skills">দক্ষতা</a></li>
+                <li><a href="#contact">যোগাযোগ</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<section class="hero">
-    <h1>WIN BIG TODAY!</h1>
-    <p>Get 100% Welcome Bonus on your first deposit.</p>
-    
-    <div class="auth-container">
-        <h3>Join the Action</h3>
-        <a href="#" class="btn btn-signup">Create Free Account</a>
-        <p style="font-size: 12px; margin-top: 10px; color: #aaa;">18+ | Play Responsibly</p>
-    </div>
-</section>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>আসসালামু আলাইকুম, আমি <span>লিমন</span></h1>
+            <p>আমি একজন গ্রাফিক ডিজাইনার এবং ডিজিটাল কন্টেন্ট ক্রিয়েটর।</p>
+            <a href="#contact" class="btn">আমার সাথে যোগাযোগ করুন</a>
+        </div>
+    </section>
 
-<section class="game-section">
-    <h2>Popular Games</h2>
-    <div class="grid">
-        <div class="game-card">🎰<br>Slots</div>
-        <div class="game-card">🃏<br>Poker</div>
-        <div class="game-card">🎡<br>Roulette</div>
-        <div class="game-card">🎲<br>Dice</div>
-        <div class="game-card">⚽<br>Sports</div>
-    </div>
-</section>
+    <section id="about" class="about">
+        <h2>আমার সম্পর্কে</h2>
+        <p>আমি দীর্ঘ সময় ধরে ডিজিটাল গ্রাফিক ডিজাইন এবং গেমিং কমিউনিটির জন্য ব্র্যান্ডিং নিয়ে কাজ করছি। বিশেষ করে লোগো ডিজাইন এবং ফটো ম্যানিপুলেশনে আমার বিশেষ আগ্রহ রয়েছে।</p>
+    </section>
 
-<footer>
-    <p>&copy; 2026 Casino Royale Group. All Rights Reserved.</p>
-</footer>
+    <section id="skills" class="skills">
+        <h2>আমার দক্ষতা</h2>
+        <div class="skill-container">
+            <div class="skill-box">লোগো ডিজাইন</div>
+            <div class="skill-box">ফটো এডিটিং</div>
+            <div class="skill-box">ব্যানার আর্ট</div>
+            <div class="skill-box">ব্র্যান্ডিং</div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>যোগাযোগ</h2>
+        <p>আপনার কোনো প্রজেক্ট থাকলে আমাকে ইমেইল করতে পারেন।</p>
+        <p>ইমেইল: example@email.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 লিমন - সর্বস্বত্ব সংরক্ষিত।</p>
+    </footer>
 
 </body>
 </html>
